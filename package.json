@@ -1,7 +1,7 @@
 {
   "name": "starter",
   "private": true,
-  "description": "Groundcrew Starter Theme",
+  "description": "Starter Theme",
   "version": "0.1.0",
   "author": "Groundcrew",
   "dependencies": {

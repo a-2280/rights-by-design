@@ -4,10 +4,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `GC Starter Theme`,
-    description: `Groundcrew Starter Theme 2024`,
-    author: `@groundcrew`,
-    siteUrl: `https://groundcrew.com.au`,
+    title: `Starter Theme`,
+    description: `Starter Theme 2024`,
+    author: `@carljoseph`,
+    siteUrl: `https://carlbeaverson.com`,
   },
   plugins: [
     {
