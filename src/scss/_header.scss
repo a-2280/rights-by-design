@@ -3,14 +3,10 @@
 --------------------------------------------------------------*/
 
 .logo {
-    width: 400px;
+    max-width: 400px;
     height: 40px;
 }
 
 .logo img {
     object-fit: contain;
-}
-
-.header {
-    align-items: start;
 }

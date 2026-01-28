@@ -19,7 +19,7 @@ export default function Button({ text, link, variant = "primary", download }) {
     }
 
     return (
-        <a className='flex p-button text-mono text-12 w-fit m-text-mono' href={link} download={download} style={variantStyles}>
+        <a className='flex p-button text-mono text-12 w-fit' href={link} download={download} style={variantStyles}>
             {text || "button"}
         </a>
     )
