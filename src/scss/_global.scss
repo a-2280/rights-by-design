@@ -3,211 +3,391 @@
 --------------------------------------------------------------*/
 
 a {
-  color: inherit;
+    color: inherit;
 }
 
 .link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .uppercase {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .overflow {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 /* ------------ Grid Styles ------------ */
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 /* ------------ Flex Styles ------------ */
 
 .flex {
-  display: flex;
+    display: flex;
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .flex-col {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .align-center {
-  align-items: center;
+    align-items: center;
 }
 
 .justify-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .space-between {
-  justify-content: space-between;
+    justify-content: space-between;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-end {
+    align-items: flex-end;
+}
+
+.justify-end {
+    justify-content: flex-end;
 }
 
 /* ------------ Gap Styles ------------ */
 
 .gap-20 {
-  gap: 20px;
+    gap: 20px;
 }
 
 .gap-40 {
-  gap: 40px;
+    gap: 40px;
+}
+
+.gap-60 {
+    gap: 60px;
+}
+
+.gap-90 {
+    gap: 90px;
 }
 
 /* ------------ Margin Styles ------------ */
 
 .m0 {
-  margin: 0px;
+    margin: 0px;
 }
 
 .ma {
-  margin: auto;
+    margin: auto;
 }
 
 .mla {
-  margin-left: auto;
+    margin-left: auto;
 }
 
 .mra {
-  margin-right: auto;
+    margin-right: auto;
 }
 
 .mta {
-  margin-top: auto;
+    margin-top: auto;
 }
 
 .mba {
-  margin-bottom: auto;
+    margin-bottom: auto;
 }
 
 /* ------------ Padding Styles ------------ */
 
 .p0 {
-  padding: 0px;
+    padding: 0px;
 }
 
 .p20 {
-  padding: 20px;
+    padding: 20px;
 }
 
 .p40 {
-  padding: 40px;
+    padding: 40px;
+}
+
+.p60 {
+    padding: 60px;
+}
+
+.p90 {
+    padding: 90px;
+}
+
+.p-button {
+    padding: 8px 20px;
+}
+
+.p-footer {
+    padding: 90px 40px;
 }
 
 /* ------------ Position Styles ------------ */
 
 .pos-rel {
-  position: relative;
+    position: relative;
 }
 
 .sticky {
-  position: sticky;
-  top: 0;
+    position: sticky;
+    top: 0;
 }
 
 /* ------------ Z-Index Styles ------------ */
 
 .z-2 {
-  z-index: 2;
+    z-index: 2;
 }
 
 /* ------------ BG Styles ------------ */
 
 .bg-grey {
-  background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-offwhite {
+    background-color: rgba(232, 231, 226, 1);
+}
+
+.bg-footer {
+    background-color: rgba(35, 33, 26, 1);
 }
 
 /* ------------ Image Styles ------------ */
 
 div.bg-image,
 .bg-image {
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    height: 100%;
 }
 
 /* ------------ Spacer Styles ------------ */
 
 .spacer {
-  height: 100px;
+    height: 100px;
+}
+
+hr {
+    border: 2px solid rgba(21, 20, 20, 1);
 }
 
 /* ------------ Ratio Styles ------------ */
 
 .ratio-1-2 {
-  width: 100%;
-  aspect-ratio: 1 / 2;
+    width: 100%;
+    aspect-ratio: 1 / 2;
 }
 
 .ratio-2-1 {
-  width: 100%;
-  aspect-ratio: 2 / 1;
+    width: 100%;
+    aspect-ratio: 2 / 1;
 }
 
 /* ------------ Width Styles ------------ */
 
 .w-50 {
-  width: 50%;
+    width: 50%;
 }
 
 .w-100 {
-  width: 100%;
+    width: 100%;
+}
+
+.w-520 {
+    width: 520px;
+}
+
+.w-fit {
+    width: fit-content;
 }
 
 /* ------------ Height Styles ------------ */
 
 .h-100 {
-  height: 100%;
+    height: 100%;
 }
 
 .h-100vh {
-  height: 100vh;
+    height: 100vh;
+}
+
+.h-800px {
+    height: 800px;
 }
 
 /* ------------ Max Styles ------------ */
 
 .max-1600 {
-  max-width: 1600px;
+    max-width: 1600px;
+}
+
+.max-950 {
+    max-width: 950px;
+}
+
+.max-830 {
+    max-width: 830px;
+}
+
+/* ------------ Typography Styles ------------ */
+
+.text-60 {
+    font-weight: 380;
+    line-height: 64px;
+    font-size: 60px;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-charcoal {
+    color: rgba(21, 20, 20, 1);
+}
+
+.text-grey {
+    color: rgba(133, 133, 133, 1);
+}
+
+.text-40 {
+    font-weight: 380;
+    line-height: 44px;
+    font-size: 40px;
+}
+
+.text-26 {
+    font-weight: 380;
+    line-height: 28px;
+    font-size: 26px;
+}
+
+.text-mono {
+    font-weight: 380;
+    text-transform: uppercase;
+    font-family: "Saans Mono";
+    line-height: 14px;
+    font-size: 12px;
 }
 
 /* ------------ Mobile Styles ------------ */
 
 .m-hide {
-  @media (max-width: 768px) {
-    display: none;
-  }
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .m-show {
-  display: none;
-  @media (max-width: 768px) {
-    display: inherit;
-  }
+    display: none;
+    @media (max-width: 768px) {
+        display: inherit;
+    }
 }
 
 .m-wrap {
-  @media (max-width: 768px) {
-    flex-wrap: wrap;
-  }
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
 }
 
 .m-100 {
-  @media (max-width: 768px) {
-    width: 100%;
-  }
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.m-fit {
+    @media (max-width: 768px) {
+        width: fit-content;
+    }
+}
+
+.m-h-100 {
+    @media (max-width: 768px) {
+        height: 100%;
+    }
+}
+
+.m-pb-40 {
+    @media (max-width: 768px) {
+        padding-bottom: 40px;
+    }
+}
+
+.m-pb-60 {
+    @media (max-width: 768px) {
+        padding-bottom: 60px;
+    }
+}
+
+.m-flex-col {
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.m-align-start {
+    @media (max-width: 768px) {
+        align-items: start;
+    }
+}
+
+.m-gap-40 {
+    @media (max-width: 768px) {
+        gap: 40px;
+    }
+}
+
+.m-gap-20 {
+    @media (max-width: 768px) {
+        gap: 20px;
+    }
+}
+
+.m-gap-10 {
+    @media (max-width: 768px) {
+        gap: 10px;
+    }
+}
+
+.m-text-mono {
+    @media (max-width: 768px) {
+        font-size: 10px;
+        line-height: 14px;
+    }
+}
+
+.m-text-40 {
+    @media (max-width: 768px) {
+        font-size: 50px;
+        line-height: 54px;
+    }
 }
